@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\newcommand{\bvec}[1]{\mathbf{#1}}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{itemize}
+\item Newton's second law of motion
+\begin{eqnarray}
+\bvec{a} &=& \tanh(\bvec{W}^D\bvec{x}^{D-1} + \bvec{b}^D)
+\nonumber \\
+\bvec{x}^l &=& \tanh(\bvec{W}^l\bvec{x}^{l-1} + \bvec{b}^l) 
+\text{ for } l=1,2,\dots, D-1
+\nonumber \\
+\bvec{x}^0 &=& ( \bvec{m}, \bvec{x} )^t
+\end{eqnarray}
+
+\item Newton's law of universal gravitation
+\begin{eqnarray}
+\bvec{F} &=& \tanh(\bvec{W}^D\bvec{x}^{D-1} + \bvec{b}^D)
+\nonumber \\
+\bvec{x}^l &=& \tanh(\bvec{W}^l\bvec{x}^{l-1} + \bvec{b}^l) 
+\text{ for } l=1,2,\dots, D-1
+\nonumber \\
+\bvec{x}^0 &=& (m_1, m_2, \bvec{x}_1, \bvec{x}_2)^t
+\end{eqnarray}
+
+\item Einstein's field equations
+\begin{eqnarray}
+\bvec{T} &=& \tanh(\bvec{W}^D\bvec{x}^{D-1} + \bvec{b}^D)
+\nonumber \\
+\bvec{x}^l &=& \tanh(\bvec{W}^l\bvec{x}^{l-1} + \bvec{b}^l) 
+\text{ for } l=1,2,\dots, D-1
+\nonumber \\
+\bvec{x}^0 &=& \bvec{\rho}
+\end{eqnarray}
+
+\item Maxwell's equations
+\begin{eqnarray}
+(\bvec{E}, \bvec{B})^t &=& \tanh(\bvec{W}^D\bvec{x}^{D-1} + \bvec{b}^D)
+\nonumber \\
+\bvec{x}^l &=& \tanh(\bvec{W}^l\bvec{x}^{l-1} + \bvec{b}^l) 
+\text{ for } l=1,2,\dots, D-1
+\nonumber \\
+\bvec{x}^0 &=& (\bvec{q}, \bvec{x}, \bvec{v})^t
+\end{eqnarray}
+
+\item Schrodinger's equation
+\begin{eqnarray}
+E &=& \tanh(\bvec{W}^D\bvec{x}^{D-1} + \bvec{b}^D)
+\nonumber \\
+\bvec{x}^l &=& \tanh(\bvec{W}^l\bvec{x}^{l-1} + \bvec{b}^l) 
+\text{ for } l=1,2,\dots, D-1
+\nonumber \\
+\bvec{x}^0 &=& \bvec{x}
+\end{eqnarray}
+
+\item Lorentz transformation in the theory of special relativity
+\begin{eqnarray}
+(x', y', z', t')^t &=& \tanh(\bvec{W}^D\bvec{x}^{D-1} + \bvec{b}^D)
+\nonumber \\
+\bvec{x}^l &=& \tanh(\bvec{W}^l\bvec{x}^{l-1} + \bvec{b}^l) 
+\text{ for } l=1,2,\dots, D-1
+\nonumber \\
+\bvec{x}^0 &=& (x, y, z, t, v_x, v_y, v_z)^t
+\end{eqnarray}
+
+\item Boltzmann's entropy formula
+\begin{eqnarray}
+S &=& \tanh(\bvec{W}^D\bvec{x}^{D-1} + \bvec{b}^D)
+\nonumber \\
+\bvec{x}^l &=& \tanh(\bvec{W}^l\bvec{x}^{l-1} + \bvec{b}^l) 
+\text{ for } l=1,2,\dots, D-1
+\nonumber \\
+\bvec{x}^0 &=& (N, V, T, \bvec{m})^t \ \ (\bvec{m} \text{ encodes composition of matter})
+\end{eqnarray}
+
+\end{itemize}
+
+\end{document}
